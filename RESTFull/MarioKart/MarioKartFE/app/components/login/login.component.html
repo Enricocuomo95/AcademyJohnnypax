@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col">
+        <div class="form-group">
+            <label for="input-nominativo">Nominativo</label>
+            <input [(ngModel)]="Nominativo" type="text" class="form-control" id="input-nominativo" >
+        </div>
+        <div class="form-group">
+            <label for="input-username">Username</label>
+            <input [(ngModel)]="Username" type="text" class="form-control" id="input-username" >
+        </div>
+        <div class="form-group">
+            <label for="input-nominativo">Password</label>
+            <input [(ngModel)]="Password" type="password" class="form-control" id="input-password" >
+        </div>
+
+        <button type="button" class="btn btn-primary" (click)="aggiungiPersona()" data-target="#errorModal">Cliccami</button>
+    </div>
+</div>

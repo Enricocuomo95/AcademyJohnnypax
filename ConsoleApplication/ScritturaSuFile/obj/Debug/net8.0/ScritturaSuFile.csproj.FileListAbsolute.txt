@@ -1,0 +1,14 @@
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\bin\Debug\net8.0\ScritturaSuFile.exe
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\bin\Debug\net8.0\ScritturaSuFile.deps.json
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\bin\Debug\net8.0\ScritturaSuFile.runtimeconfig.json
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\bin\Debug\net8.0\ScritturaSuFile.dll
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\bin\Debug\net8.0\ScritturaSuFile.pdb
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\obj\Debug\net8.0\ScritturaSuFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\obj\Debug\net8.0\ScritturaSuFile.AssemblyInfoInputs.cache
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\obj\Debug\net8.0\ScritturaSuFile.AssemblyInfo.cs
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\obj\Debug\net8.0\ScritturaSuFile.csproj.CoreCompileInputs.cache
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\obj\Debug\net8.0\ScritturaSuFile.dll
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\obj\Debug\net8.0\refint\ScritturaSuFile.dll
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\obj\Debug\net8.0\ScritturaSuFile.pdb
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\obj\Debug\net8.0\ScritturaSuFile.genruntimeconfig.cache
+C:\Users\Utente\source\repos\ScritturaSuFile\ScritturaSuFile\obj\Debug\net8.0\ref\ScritturaSuFile.dll

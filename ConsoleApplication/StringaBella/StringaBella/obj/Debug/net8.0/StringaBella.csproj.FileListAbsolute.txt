@@ -1,0 +1,14 @@
+C:\Users\Utente\source\repos\StringaBella\StringaBella\bin\Debug\net8.0\StringaBella.exe
+C:\Users\Utente\source\repos\StringaBella\StringaBella\bin\Debug\net8.0\StringaBella.deps.json
+C:\Users\Utente\source\repos\StringaBella\StringaBella\bin\Debug\net8.0\StringaBella.runtimeconfig.json
+C:\Users\Utente\source\repos\StringaBella\StringaBella\bin\Debug\net8.0\StringaBella.dll
+C:\Users\Utente\source\repos\StringaBella\StringaBella\bin\Debug\net8.0\StringaBella.pdb
+C:\Users\Utente\source\repos\StringaBella\StringaBella\obj\Debug\net8.0\StringaBella.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\source\repos\StringaBella\StringaBella\obj\Debug\net8.0\StringaBella.AssemblyInfoInputs.cache
+C:\Users\Utente\source\repos\StringaBella\StringaBella\obj\Debug\net8.0\StringaBella.AssemblyInfo.cs
+C:\Users\Utente\source\repos\StringaBella\StringaBella\obj\Debug\net8.0\StringaBella.csproj.CoreCompileInputs.cache
+C:\Users\Utente\source\repos\StringaBella\StringaBella\obj\Debug\net8.0\StringaBella.dll
+C:\Users\Utente\source\repos\StringaBella\StringaBella\obj\Debug\net8.0\refint\StringaBella.dll
+C:\Users\Utente\source\repos\StringaBella\StringaBella\obj\Debug\net8.0\StringaBella.pdb
+C:\Users\Utente\source\repos\StringaBella\StringaBella\obj\Debug\net8.0\StringaBella.genruntimeconfig.cache
+C:\Users\Utente\source\repos\StringaBella\StringaBella\obj\Debug\net8.0\ref\StringaBella.dll

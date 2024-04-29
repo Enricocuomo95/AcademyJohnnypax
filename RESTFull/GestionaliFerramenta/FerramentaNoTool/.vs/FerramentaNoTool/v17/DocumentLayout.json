@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\source\\repos\\FerramentaNoTool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A3E3B-7DEE-434F-B3FE-C0E6A946665D}|FerramentaNoTool\\FerramentaNoTool.csproj|c:\\users\\utente\\source\\repos\\ferramentanotool\\ferramentanotool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A3E3B-7DEE-434F-B3FE-C0E6A946665D}|FerramentaNoTool\\FerramentaNoTool.csproj|solutionrelative:ferramentanotool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A3E3B-7DEE-434F-B3FE-C0E6A946665D}|FerramentaNoTool\\FerramentaNoTool.csproj|c:\\users\\utente\\source\\repos\\ferramentanotool\\ferramentanotool\\ferramentanotool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD7A3E3B-7DEE-434F-B3FE-C0E6A946665D}|FerramentaNoTool\\FerramentaNoTool.csproj|solutionrelative:ferramentanotool\\ferramentanotool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A3E3B-7DEE-434F-B3FE-C0E6A946665D}|FerramentaNoTool\\FerramentaNoTool.csproj|c:\\users\\utente\\source\\repos\\ferramentanotool\\ferramentanotool\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD7A3E3B-7DEE-434F-B3FE-C0E6A946665D}|FerramentaNoTool\\FerramentaNoTool.csproj|solutionrelative:ferramentanotool\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A3E3B-7DEE-434F-B3FE-C0E6A946665D}|FerramentaNoTool\\FerramentaNoTool.csproj|c:\\users\\utente\\source\\repos\\ferramentanotool\\ferramentanotool\\models\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A3E3B-7DEE-434F-B3FE-C0E6A946665D}|FerramentaNoTool\\FerramentaNoTool.csproj|solutionrelative:ferramentanotool\\models\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A3E3B-7DEE-434F-B3FE-C0E6A946665D}|FerramentaNoTool\\FerramentaNoTool.csproj|c:\\users\\utente\\source\\repos\\ferramentanotool\\ferramentanotool\\models\\ferramentacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A3E3B-7DEE-434F-B3FE-C0E6A946665D}|FerramentaNoTool\\FerramentaNoTool.csproj|solutionrelative:ferramentanotool\\models\\ferramentacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaNoTool\\FerramentaNoTool\\appsettings.json",
+              "RelativeDocumentMoniker": "FerramentaNoTool\\appsettings.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaNoTool\\FerramentaNoTool\\appsettings.json",
+              "RelativeToolTip": "FerramentaNoTool\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-04T08:34:43.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaNoTool\\FerramentaNoTool\\Program.cs",
+              "RelativeDocumentMoniker": "FerramentaNoTool\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaNoTool\\FerramentaNoTool\\Program.cs",
+              "RelativeToolTip": "FerramentaNoTool\\Program.cs",
+              "ViewState": "AQIAACQAAAAAZWZmZmYswDEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T08:12:19.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FerramentaContext.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaNoTool\\FerramentaNoTool\\Models\\FerramentaContext.cs",
+              "RelativeDocumentMoniker": "FerramentaNoTool\\Models\\FerramentaContext.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaNoTool\\FerramentaNoTool\\Models\\FerramentaContext.cs",
+              "RelativeToolTip": "FerramentaNoTool\\Models\\FerramentaContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T07:56:49.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Prodotto.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaNoTool\\FerramentaNoTool\\Models\\Prodotto.cs",
+              "RelativeDocumentMoniker": "FerramentaNoTool\\Models\\Prodotto.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaNoTool\\FerramentaNoTool\\Models\\Prodotto.cs",
+              "RelativeToolTip": "FerramentaNoTool\\Models\\Prodotto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T07:53:55.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FerramentaNoTool.csproj",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaNoTool\\FerramentaNoTool\\FerramentaNoTool.csproj",
+              "RelativeDocumentMoniker": "FerramentaNoTool\\FerramentaNoTool.csproj",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaNoTool\\FerramentaNoTool\\FerramentaNoTool.csproj",
+              "RelativeToolTip": "FerramentaNoTool\\FerramentaNoTool.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-04T07:53:22.492Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+﻿<Window x:Class="Abbigliamento.View.ViewUtente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        Height="750" Width="1080" WindowStartupLocation="CenterScreen" WindowStyle="None"
+        AllowsTransparency="True" Background="Transparent"
+    xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+        <Style x:Key="ColumnHeaderGripperStyle" TargetType="{x:Type Thumb}">
+            <Setter Property="Width" Value="8"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Cursor" Value="SizeWE"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Thumb}">
+                        <Border Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="DataGridColumnHeaderStyle1" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGridColumnHeader}">
+                        <Grid>
+                            <theme:DataGridHeaderBorder Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" IsPressed="{TemplateBinding IsPressed}" IsHovered="{TemplateBinding IsMouseOver}" IsClickable="{TemplateBinding CanUserSort}" Padding="{TemplateBinding Padding}" SortDirection="{TemplateBinding SortDirection}" SeparatorVisibility="{TemplateBinding SeparatorVisibility}" SeparatorBrush="{TemplateBinding SeparatorBrush}">
+                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </theme:DataGridHeaderBorder>
+                            <Thumb x:Name="PART_LeftHeaderGripper" HorizontalAlignment="Left" Style="{StaticResource ColumnHeaderGripperStyle}"/>
+                            <Thumb x:Name="PART_RightHeaderGripper" HorizontalAlignment="Right" Style="{StaticResource ColumnHeaderGripperStyle}"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border Background="#eff2f7" CornerRadius="30">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- left menu-->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+
+                <!-- menu logo-->
+                <Border Grid.Row="1" Background="SkyBlue" CornerRadius="0 50 0 30" Margin="0 70 0 20">
+                    <DockPanel>
+                        <Border Width="80" Height="80" Padding="3" Background="White" CornerRadius="100"
+                                DockPanel.Dock="Top" HorizontalAlignment="Left" Margin="65 -40 0 0">
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="C:\Users\Utente\source\repos\Abbigliamento\Abbigliamento\Images\SSC_Napoli.png"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </Border>
+                        <TextBlock Text="Forza Napoli" Foreground="White" FontSize="22" FontWeight="SemiBold"
+                                   DockPanel.Dock="Top" TextAlignment="Center" Margin="5 8 0 10"/>
+
+                        <!-- menu separator-->
+                        <Separator  Margin="15" DockPanel.Dock="Top" Height="0.8" Background="Aqua"/>
+
+                        <!-- menu buttons-->
+                        <StackPanel DockPanel.Dock="Top" Margin="0 15">
+                            <Button Style="{StaticResource menuButton}" Click="Button_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="HomeVariant" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Home"/>
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource menuButton}">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="CalendarClock" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="I miei ordini"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+
+                        <Button Style="{StaticResource menuButton}" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Margin="15 0 15 20" Click="Button_Click_1">
+                            <StackPanel Orientation="Horizontal">
+                                <Icon:PackIconMaterial Kind="Logout" Style="{StaticResource menuButtonIcon}"/>
+                                <TextBlock Text="Logout"/>
+                            </StackPanel>
+                        </Button>
+                    </DockPanel>
+                </Border>
+            </Grid>
+
+            <!-- main section-->
+            <Grid Grid.Column="1" Margin="30 20 20 20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+               <!--filter textbox-->
+                <Grid Width="180" HorizontalAlignment="Right" Grid.Row="0" x:Name="buttonCategoria">
+                    <TextBlock VerticalAlignment="Center" Foreground="Black" IsHitTestVisible="False" Text="ricerca categoria"
+                        Panel.ZIndex="1" HorizontalAlignment="Left" Margin="-55 0 0 0"/>
+                    <ComboBox Grid.Row="2" Grid.Column="1" Margin="40" x:Name="CategoriaBox" SelectionChanged="btn_categoriaSelezionata">
+                        <ComboBoxItem>intimo</ComboBoxItem>
+                        <ComboBoxItem>jeans</ComboBoxItem>
+                        <ComboBoxItem>pantaloni</ComboBoxItem>
+                        <ComboBoxItem>t-scirt</ComboBoxItem>
+                        <ComboBoxItem>felpe</ComboBoxItem>
+                    </ComboBox>
+                </Grid>
+
+                <!-- add buttons-->
+                <Button Style="{StaticResource addButton}" Grid.Row="0" x:Name="buttonOrdine" Click="btn_ordina">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Procedi con l'acquisto" />
+                    </StackPanel>
+                </Button>
+
+
+                <!--members details-->
+                <DataGrid Grid.Row="5" Name="DG1" ItemsSource="{Binding}" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Image" Width="250" IsReadOnly="True">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding UrlImg}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="Descrizione" Width="200" Binding="{Binding Descrizione}"/>
+                        <DataGridTextColumn Header="Taglia" Width="60" Binding="{Binding Taglia}"/>
+                        <DataGridTextColumn Header="Quantita" Width="150" Binding="{Binding Quantita}"/>
+                        <DataGridTextColumn Header="Data inizio offerta" Width="130" Binding="{Binding DataInizio}"/>
+                        <DataGridTextColumn Header="Data fine offerta" Width="130" Binding="{Binding DataFine}"/>
+                        <DataGridTextColumn Header="Prezzo scontato" Width="150" Binding="{Binding PrezzoOfferta}"/>
+                        <DataGridTemplateColumn Width="90" Header="Acquista" x:Name="acquistaColl">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Style="{StaticResource pagingButton}" Click="btn_acquisti">
+                                        <Icon:PackIconMaterial Kind="Cart"/>
+                                    </Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+                
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

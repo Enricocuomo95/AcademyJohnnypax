@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Utilitis\Window1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ModificaProdotto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\InsertProdotto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ViewOrdini.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ViewUtente.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ModificaProdotto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\InsertProdotto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Registrazione.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ViewAdmin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Utilitis\Window1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ViewOrdini.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ViewUtente.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

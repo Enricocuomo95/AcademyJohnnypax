@@ -1,0 +1,60 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model List<PalestraMVC.Models.Corso>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+} 
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>codice</th>
+            <th>nome</th>
+            <th>descrizione</th>
+            <th>tipo_corso</th>
+            <th>ora_inizio</th>
+            <th>ora_fine</th>
+            <th>n_posti</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Corso corso in Model)
+        {
+            <tr>
+                <td>@corso.Codice</td>
+                <td>@corso.Nome</td>
+                <td>@corso.Descrizione</td>
+                <td>@corso.TipoCorso</td>
+                <td>@corso.OraInizio</td>
+                <td>@corso.OraFine</td>
+                <td>@corso.NPosti</td>
+                <td>
+                    <button type="button" class="btn btn-outline-success" onclick="prenota('@corso.Codice')">Prenota</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function prenota(varCodice) {
+        $.ajax(
+            {
+                url: "http://localhost:5059/Utente/RegistrazioneCorso/",
+                type: "GET",
+                dataType: "jsonp",
+                contentType: "application/json",
+                data: { cod: varCodice },
+                success: function () {
+                    alert("STAPPO")
+                    window.location.reload();
+                },
+                error: function (errore) {
+                    alert(errore)
+                }
+            }
+        )
+    }
+</script>

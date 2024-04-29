@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\source\\repos\\Officina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4925F5E7-54BD-4E08-9B51-5C13D62997BF}|Officina\\Officina.csproj|c:\\users\\utente\\source\\repos\\officina\\officina\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4925F5E7-54BD-4E08-9B51-5C13D62997BF}|Officina\\Officina.csproj|solutionrelative:officina\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4925F5E7-54BD-4E08-9B51-5C13D62997BF}|Officina\\Officina.csproj|c:\\users\\utente\\source\\repos\\officina\\officina\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4925F5E7-54BD-4E08-9B51-5C13D62997BF}|Officina\\Officina.csproj|solutionrelative:officina\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4925F5E7-54BD-4E08-9B51-5C13D62997BF}|Officina\\Officina.csproj|c:\\users\\utente\\source\\repos\\officina\\officina\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4925F5E7-54BD-4E08-9B51-5C13D62997BF}|Officina\\Officina.csproj|solutionrelative:officina\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4925F5E7-54BD-4E08-9B51-5C13D62997BF}|Officina\\Officina.csproj|c:\\users\\utente\\source\\repos\\officina\\officina\\officina.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4925F5E7-54BD-4E08-9B51-5C13D62997BF}|Officina\\Officina.csproj|solutionrelative:officina\\officina.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\Officina\\Officina\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Officina\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\Officina\\Officina\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Officina\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T13:08:13.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\Officina\\Officina\\Program.cs",
+              "RelativeDocumentMoniker": "Officina\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\Officina\\Officina\\Program.cs",
+              "RelativeToolTip": "Officina\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:07:42.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\Officina\\Officina\\appsettings.json",
+              "RelativeDocumentMoniker": "Officina\\appsettings.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\Officina\\Officina\\appsettings.json",
+              "RelativeToolTip": "Officina\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T13:07:24.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Officina.http",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\Officina\\Officina\\Officina.http",
+              "RelativeDocumentMoniker": "Officina\\Officina.http",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\Officina\\Officina\\Officina.http",
+              "RelativeToolTip": "Officina\\Officina.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-03T13:06:48.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

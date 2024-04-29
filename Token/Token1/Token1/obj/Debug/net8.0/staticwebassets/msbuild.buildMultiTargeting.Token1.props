@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Token1.props" />
+</Project>

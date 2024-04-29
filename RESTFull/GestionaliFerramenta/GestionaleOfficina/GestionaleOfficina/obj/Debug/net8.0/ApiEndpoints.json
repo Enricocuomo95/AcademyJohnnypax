@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "GestionaleOfficina.Controllers.ProdottoController",
+    "Method": "Index",
+    "RelativePath": "api/prodotto",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionaleOfficina.Controllers.ProdottoController",
+    "Method": "insert",
+    "RelativePath": "api/prodotto/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "GestionaleOfficina.Models.Prodotto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionaleOfficina.Controllers.ProdottoController",
+    "Method": "delete",
+    "RelativePath": "api/prodotto/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "GestionaleOfficina.Models.Prodotto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionaleOfficina.Controllers.ProdottoController",
+    "Method": "delete",
+    "RelativePath": "api/prodotto/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "GestionaleOfficina.Models.Prodotto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionaleOfficina.Controllers.ProdottoController",
+    "Method": "getAll",
+    "RelativePath": "api/prodotto/read",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionaleOfficina.Controllers.ProdottoController",
+    "Method": "update",
+    "RelativePath": "api/prodotto/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "GestionaleOfficina.Models.Prodotto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionaleOfficina.Controllers.ProdottoController",
+    "Method": "update",
+    "RelativePath": "api/prodotto/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "GestionaleOfficina.Models.Prodotto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

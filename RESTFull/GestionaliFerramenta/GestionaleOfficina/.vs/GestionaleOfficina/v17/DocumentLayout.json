@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|c:\\users\\utente\\source\\repos\\gestionaleofficina\\gestionaleofficina\\controllers\\prodottocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|solutionrelative:gestionaleofficina\\controllers\\prodottocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|c:\\users\\utente\\source\\repos\\gestionaleofficina\\gestionaleofficina\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|solutionrelative:gestionaleofficina\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|c:\\users\\utente\\source\\repos\\gestionaleofficina\\gestionaleofficina\\repository\\prodottorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|solutionrelative:gestionaleofficina\\repository\\prodottorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|c:\\users\\utente\\source\\repos\\gestionaleofficina\\gestionaleofficina\\models\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|solutionrelative:gestionaleofficina\\models\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|c:\\users\\utente\\source\\repos\\gestionaleofficina\\gestionaleofficina\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|solutionrelative:gestionaleofficina\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|c:\\users\\utente\\source\\repos\\gestionaleofficina\\gestionaleofficina\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{564928B3-A5F5-4FC6-8E69-FCB70299E56D}|GestionaleOfficina\\GestionaleOfficina.csproj|solutionrelative:gestionaleofficina\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Prodotto.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\Models\\Prodotto.cs",
+              "RelativeDocumentMoniker": "GestionaleOfficina\\Models\\Prodotto.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\Models\\Prodotto.cs",
+              "RelativeToolTip": "GestionaleOfficina\\Models\\Prodotto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:36:54.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\Program.cs",
+              "RelativeDocumentMoniker": "GestionaleOfficina\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\Program.cs",
+              "RelativeToolTip": "GestionaleOfficina\\Program.cs",
+              "ViewState": "AQIAAAMAAABgmJmZmZkVwB0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:39:31.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GestionaleOfficina\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GestionaleOfficina\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAQAAAAAAAAAAABYPQcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T17:23:13.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\appsettings.json",
+              "RelativeDocumentMoniker": "GestionaleOfficina\\appsettings.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\appsettings.json",
+              "RelativeToolTip": "GestionaleOfficina\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T17:23:07.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdottoRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\Repository\\ProdottoRepo.cs",
+              "RelativeDocumentMoniker": "GestionaleOfficina\\Repository\\ProdottoRepo.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\Repository\\ProdottoRepo.cs",
+              "RelativeToolTip": "GestionaleOfficina\\Repository\\ProdottoRepo.cs",
+              "ViewState": "AQIAACsAAABAIjMzM7MlwGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:19:30.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdottoController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\Controllers\\ProdottoController.cs",
+              "RelativeDocumentMoniker": "GestionaleOfficina\\Controllers\\ProdottoController.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\GestionaleOfficina\\GestionaleOfficina\\Controllers\\ProdottoController.cs",
+              "RelativeToolTip": "GestionaleOfficina\\Controllers\\ProdottoController.cs",
+              "ViewState": "AQIAAAYAAACQLTMzMzMbwBAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:14:44.681Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

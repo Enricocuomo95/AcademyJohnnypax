@@ -1,0 +1,14 @@
+C:\Users\Utente\source\repos\Ristorante\Ristorante\bin\Debug\net8.0\Ristorante.exe
+C:\Users\Utente\source\repos\Ristorante\Ristorante\bin\Debug\net8.0\Ristorante.deps.json
+C:\Users\Utente\source\repos\Ristorante\Ristorante\bin\Debug\net8.0\Ristorante.runtimeconfig.json
+C:\Users\Utente\source\repos\Ristorante\Ristorante\bin\Debug\net8.0\Ristorante.dll
+C:\Users\Utente\source\repos\Ristorante\Ristorante\bin\Debug\net8.0\Ristorante.pdb
+C:\Users\Utente\source\repos\Ristorante\Ristorante\obj\Debug\net8.0\Ristorante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\source\repos\Ristorante\Ristorante\obj\Debug\net8.0\Ristorante.AssemblyInfoInputs.cache
+C:\Users\Utente\source\repos\Ristorante\Ristorante\obj\Debug\net8.0\Ristorante.AssemblyInfo.cs
+C:\Users\Utente\source\repos\Ristorante\Ristorante\obj\Debug\net8.0\Ristorante.csproj.CoreCompileInputs.cache
+C:\Users\Utente\source\repos\Ristorante\Ristorante\obj\Debug\net8.0\Ristorante.dll
+C:\Users\Utente\source\repos\Ristorante\Ristorante\obj\Debug\net8.0\refint\Ristorante.dll
+C:\Users\Utente\source\repos\Ristorante\Ristorante\obj\Debug\net8.0\Ristorante.pdb
+C:\Users\Utente\source\repos\Ristorante\Ristorante\obj\Debug\net8.0\Ristorante.genruntimeconfig.cache
+C:\Users\Utente\source\repos\Ristorante\Ristorante\obj\Debug\net8.0\ref\Ristorante.dll

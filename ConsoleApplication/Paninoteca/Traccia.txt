@@ -1,0 +1,15 @@
+Creare un piccolo sistema di gestione paninoteca.
+ 
+Ogni panino è caratterizzato da:
+- Nome
+- Descrizione
+- Prezzo
+- Vegan (SI/NO)
+ 
+Creare una classe dedicata alla sola interazione con il Database.
+ 
+Al recupero di tutto il menu:
+- Lista di tutti i panini con relativi dettagli.
+- Visualizzare tutti i panini Vegan.
+- Contare tutti gli elementi presenti in menu.
+- Calcolare il prezzo medio dei panini.

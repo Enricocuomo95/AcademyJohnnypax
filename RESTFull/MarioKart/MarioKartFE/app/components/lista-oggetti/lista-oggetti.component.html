@@ -1,0 +1,27 @@
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Costo</th>
+            <th scope="col">Categoria</th>
+            <th scope="col">Recluta in squadra</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of lista; index as i;">
+                <td>{{i}}</td>
+                <td>{{item.nome}}</td>
+                <td>{{item.costo}}</td>
+                <td>{{item.categoria}}</td>
+                <td>
+                  <button *ngIf="item.disponibile" type="button" class="btn btn-primary" 
+                    (click)="addPersonaggio(i)">Add</button>
+                  <button *ngIf="!item.disponibile" type="button" class="btn btn-primary" 
+                    (click)="rimuoviPersonaggio(i)">Remove</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

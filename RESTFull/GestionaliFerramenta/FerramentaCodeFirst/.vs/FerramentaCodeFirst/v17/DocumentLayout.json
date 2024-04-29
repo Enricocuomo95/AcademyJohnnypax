@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|c:\\users\\utente\\source\\repos\\ferramentacodefirst\\ferramentacodefirst\\migrations\\20240408125327_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|solutionrelative:ferramentacodefirst\\migrations\\20240408125327_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|c:\\users\\utente\\source\\repos\\ferramentacodefirst\\ferramentacodefirst\\migrations\\contattocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|solutionrelative:ferramentacodefirst\\migrations\\contattocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|c:\\users\\utente\\source\\repos\\ferramentacodefirst\\ferramentacodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|solutionrelative:ferramentacodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|c:\\users\\utente\\source\\repos\\ferramentacodefirst\\ferramentacodefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|solutionrelative:ferramentacodefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|c:\\users\\utente\\source\\repos\\ferramentacodefirst\\ferramentacodefirst\\models\\contatto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|solutionrelative:ferramentacodefirst\\models\\contatto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|c:\\users\\utente\\source\\repos\\ferramentacodefirst\\ferramentacodefirst\\models\\contattocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|solutionrelative:ferramentacodefirst\\models\\contattocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|c:\\users\\utente\\source\\repos\\ferramentacodefirst\\ferramentacodefirst\\ferramentacodefirst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B1AADEAE-EBC3-4046-8ECE-EC70BB659B5C}|FerramentaCodeFirst\\FerramentaCodeFirst.csproj|solutionrelative:ferramentacodefirst\\ferramentacodefirst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContattoContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\Migrations\\ContattoContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "FerramentaCodeFirst\\Migrations\\ContattoContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\Migrations\\ContattoContextModelSnapshot.cs",
+              "RelativeToolTip": "FerramentaCodeFirst\\Migrations\\ContattoContextModelSnapshot.cs",
+              "ViewState": "AQIAAAsAAACAMTMzMzMLwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T12:59:03.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\Program.cs",
+              "RelativeDocumentMoniker": "FerramentaCodeFirst\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\Program.cs",
+              "RelativeToolTip": "FerramentaCodeFirst\\Program.cs",
+              "ViewState": "AQIAAAkAAAAA8v//////vxYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T12:56:07.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240408125327_Init.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\Migrations\\20240408125327_Init.cs",
+              "RelativeDocumentMoniker": "FerramentaCodeFirst\\Migrations\\20240408125327_Init.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\Migrations\\20240408125327_Init.cs",
+              "RelativeToolTip": "FerramentaCodeFirst\\Migrations\\20240408125327_Init.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYPQAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T12:53:28.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContattoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\Models\\ContattoContext.cs",
+              "RelativeDocumentMoniker": "FerramentaCodeFirst\\Models\\ContattoContext.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\Models\\ContattoContext.cs",
+              "RelativeToolTip": "FerramentaCodeFirst\\Models\\ContattoContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T10:08:39.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\appsettings.json",
+              "RelativeDocumentMoniker": "FerramentaCodeFirst\\appsettings.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\appsettings.json",
+              "RelativeToolTip": "FerramentaCodeFirst\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T09:49:55.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contatto.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\Models\\Contatto.cs",
+              "RelativeDocumentMoniker": "FerramentaCodeFirst\\Models\\Contatto.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\Models\\Contatto.cs",
+              "RelativeToolTip": "FerramentaCodeFirst\\Models\\Contatto.cs",
+              "ViewState": "AQIAAAIAAAA4mZmZmZkZwBUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:48:56.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FerramentaCodeFirst",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\FerramentaCodeFirst.csproj",
+              "RelativeDocumentMoniker": "FerramentaCodeFirst\\FerramentaCodeFirst.csproj",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\FerramentaCodeFirst\\FerramentaCodeFirst\\FerramentaCodeFirst.csproj",
+              "RelativeToolTip": "FerramentaCodeFirst\\FerramentaCodeFirst.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-08T09:48:12.8Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@FerramentaNoTool_HostAddress = http://localhost:5230
+
+GET {{FerramentaNoTool_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

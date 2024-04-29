@@ -1,0 +1,72 @@
+﻿﻿ 
+
+@model PalestraMVC.Models.Utente
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <h1>Effettua il login</h1>
+
+        <form method="post" asp-controller="Utente" asp-action="Profiloutente" name="myForm"
+              onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="Username">Username</label>
+                <input type="text" class="form-control" asp-for=Username id="val_username"/>
+            </div>
+            <div class="form-group">
+                <label for="PasswordUtente">Password</label>
+                <input type="password" class="form-control" asp-for=PasswordUtente id="val_password"/>
+            </div>
+            <button class="btn btn-primary">Login</button>
+        </form>
+
+    </div>
+</div>
+<script>
+    function validateForm() {
+        var username = document.getElementById("val_username").value;
+        var password = document.getElementById("val_password").value;
+      if (username == "" || password == "") {
+        alert("Si prega di completare i campi");
+        return false;
+      }
+    }
+</script>
+
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <h1>Effettua la registrazione</h1>
+
+        <form method="post" asp-controller="Utente" asp-action="Registrazione" name="RegistrazioneForm"
+              onsubmit="return validateFormRegistrazione()">
+            <div class="form-group">
+                <label for="Username">Username</label>
+                <input type="text" class="form-control" asp-for=Username id="username_reg"/>
+            </div>
+            <div class="form-group">
+                <label for="PasswordUtente">Password</label>
+                <input type="password" class="form-control" asp-for=PasswordUtente id="password_reg"/>
+            </div>
+            <div class="form-group">
+                <label>Conferma password</label>
+                <input type="password" class="form-control" id="password1_reg"/>
+            </div>
+            <button class="btn btn-primary">Registrazione</button>
+        </form>
+
+    </div>
+</div>
+<script>
+    function validateFormRegistrazione() {
+        var username = document.getElementById("username_reg").value;
+        var password1 = document.getElementById("password_reg").value;
+        var password2 = document.getElementById("password1_reg").value;
+
+      if (username == "" || password == "" || password != conferma) {
+        alert("Si prega di completare i campi");
+        return false;
+      }
+    }
+</script>

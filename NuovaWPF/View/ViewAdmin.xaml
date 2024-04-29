@@ -1,0 +1,85 @@
+﻿<Window x:Class="Abbigliamento.ViewAdmin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        Height="750" Width="1080" WindowStartupLocation="CenterScreen" WindowStyle="None"
+        AllowsTransparency="True" Background="Transparent"
+    xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
+
+   
+    
+    <Border Background="#eff2f7" CornerRadius="30" MouseDown="Border_MouseDown" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+        <Grid>
+            <!-- main section-->
+            <Grid Grid.Column="1" Margin="30 20 20 20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <!-- page title-->
+                <TextBlock Text="Amministrazione" Grid.Row="0" FontSize="36" FontWeight="SemiBold" Margin="0 20 0 0" HorizontalAlignment="Left" Foreground="Black"/>
+
+                <!-- add buttons-->
+                <Button Style="{StaticResource addButton}" Grid.Row="1" Click="Button_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Icon:PackIconMaterial Kind="Plus" VerticalAlignment="Center" Width="21" Height="11" Margin="0 1 8 0"/>
+                        <TextBlock Text="Add new Prodotto" />
+                    </StackPanel>
+                </Button>
+
+                <!--separator-->
+                <Separator Height="0" Grid.Row="2" Background="AliceBlue" Margin="0 -1 0 10"/>
+
+                <!--members details-->
+                <DataGrid Grid.Row="3" Name="DG1" ItemsSource="{Binding}" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Image" Width="250" IsReadOnly="True">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding UrlImg}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="Descrizione" Width="200" Binding="{Binding Descrizione}"/>
+                        <DataGridTextColumn Header="Taglia" Width="60" Binding="{Binding Taglia}"/>
+                        <DataGridTextColumn Header="Quantita" Width="150" Binding="{Binding Quantita}"/>
+                        <DataGridTextColumn Header="Data inizio offerta" Width="150" Binding="{Binding DataInizio}"/>
+                        <DataGridTextColumn Header="Data fine offerta" Width="150" Binding="{Binding DataFine}"/>
+                        <DataGridTextColumn Header="Prezzo scontato" Width="60" Binding="{Binding PrezzoOfferta}"/>
+                        <DataGridTemplateColumn Width="90" Header="Delete">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Style="{StaticResource pagingButton}" Click="btn_delete">
+                                        <Icon:PackIconMaterial Kind="TrashCan"/>
+                                    </Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Width="90" Header="Update">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Style="{StaticResource pagingButton}" Click="btn_update" >
+                                        <Icon:PackIconMaterial Kind="Update"/>
+                                    </Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+                
+                <!--LogOut-->
+                <Button Style="{StaticResource addButton}" Grid.Row="6" HorizontalAlignment="Left" Grid.Column="0" Click="Button_Click_1">
+                    <StackPanel Orientation="Horizontal">
+                        <Icon:PackIconMaterial Kind="Logout" VerticalAlignment="Center" Width="21" Height="11" Margin="0 1 8 0"/>
+                        <TextBlock Text="Logout" />
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Grid>   
+    </Border>
+</Window>

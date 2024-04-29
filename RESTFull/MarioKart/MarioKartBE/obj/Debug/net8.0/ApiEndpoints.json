@@ -1,0 +1,158 @@
+[
+  {
+    "ContainingType": "MarioKart.Controllers.PersonaggioController",
+    "Method": "aggiungiPersonaggio",
+    "RelativePath": "personaggio/aggiungiPersonaggio/{Username}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personaggio",
+        "Type": "MarioKart.DTO.PersonaggioDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MarioKart.Controllers.PersonaggioController",
+    "Method": "ElencoPersonaggi",
+    "RelativePath": "personaggio/personaggi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MarioKart.DTO.PersonaggioDTO, MarioKart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MarioKart.Controllers.PersonaggioController",
+    "Method": "rimuoviPersonaggio",
+    "RelativePath": "personaggio/rimuoviPersonaggio/{Username}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personaggio",
+        "Type": "MarioKart.DTO.PersonaggioDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MarioKart.Controllers.GiocatoreController",
+    "Method": "ElencoAvversari",
+    "RelativePath": "player/avversari",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "player",
+        "Type": "MarioKart.DTO.GiocatoreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MarioKart.DTO.GiocatoreDTO, MarioKart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MarioKart.Controllers.GiocatoreController",
+    "Method": "DeleteGiocatore",
+    "RelativePath": "player/deleteGiocatore",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "player",
+        "Type": "MarioKart.DTO.GiocatoreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MarioKart.DTO.GiocatoreDTO, MarioKart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MarioKart.Controllers.GiocatoreController",
+    "Method": "DeleteGiocatore",
+    "RelativePath": "player/deletePlayer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "player",
+        "Type": "MarioKart.DTO.GiocatoreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MarioKart.DTO.GiocatoreDTO, MarioKart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MarioKart.Controllers.GiocatoreController",
+    "Method": "InserisciGiocatore",
+    "RelativePath": "player/inserisciPlayer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "player",
+        "Type": "MarioKart.DTO.GiocatoreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

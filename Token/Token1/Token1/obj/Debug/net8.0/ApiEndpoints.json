@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "Token1.Controllers.HomeController",
+    "Method": "DammiInformazioniAmministratore",
+    "RelativePath": "Home/adminprofilo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Token1.Controllers.HomeController",
+    "Method": "Loggati",
+    "RelativePath": "Home/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objLogin",
+        "Type": "Token1.Models.UserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Token1.Controllers.HomeController",
+    "Method": "DammiInformazioniUtente",
+    "RelativePath": "Home/utenteprofilo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,60 @@
+<mxfile host="Electron" modified="2024-04-13T16:25:39.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="q9mzeje2Rj6hMx8GEV_n" version="24.1.0" type="device">
+  <diagram name="Pagina-1" id="_nHy6eVKQXL7t-TL2jVu">
+    <mxGraphModel dx="1036" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-57" value="Persona" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="390" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-58" value="&lt;div&gt;- codice : String&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- nominativo : String&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="420" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-59" value="&lt;div&gt;+ getCodice() : String&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="470" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-60" value="Oggetto" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="500" y="380" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpPledSl9zq4mfYFvU0s-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" parent="1" source="w0Bo0_-ca2lVXF6_ybQU-58" target="w0Bo0_-ca2lVXF6_ybQU-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="490" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-61" value="&lt;div&gt;- codice : String&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- nome: String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-descrizione : String&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- possessore : Persona&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="500" y="410" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-62" value="&lt;div&gt;+ getNome() : String&lt;/div&gt;&lt;div&gt;+ setNome() : void&lt;br&gt;&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="500" y="480" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zpPledSl9zq4mfYFvU0s-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="w0Bo0_-ca2lVXF6_ybQU-63" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="383" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-63" value="Proposta" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="270" y="630" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-64" value="&lt;div&gt;- codice : String&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- data : DateTime&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-oggetti : Oggetto[]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-persone : Persona[2]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-isAccettata: boolean&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-codiceTransazione: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="270" y="660" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-65" value="&lt;div&gt;+ getCodice() : String&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="270" y="750" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpPledSl9zq4mfYFvU0s-2" value="" style="endArrow=diamondThin;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.667;exitY=1;exitDx=0;exitDy=0;entryX=1.021;entryY=0.647;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;endFill=1;" parent="1" source="w0Bo0_-ca2lVXF6_ybQU-62" target="w0Bo0_-ca2lVXF6_ybQU-64" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="680" as="sourcePoint" />
+            <mxPoint x="510" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpPledSl9zq4mfYFvU0s-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.389;entryY=1.06;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;exitX=-0.029;exitY=0.673;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="w0Bo0_-ca2lVXF6_ybQU-64" target="w0Bo0_-ca2lVXF6_ybQU-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

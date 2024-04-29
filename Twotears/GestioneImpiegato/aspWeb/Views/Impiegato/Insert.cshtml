@@ -1,0 +1,91 @@
+﻿﻿
+@model aspWeb.Models.Impiegato
+
+<h1>Inserisci Impiegato</h1>
+
+<form method="post" asp-controller="Impiegato" asp-action="Lista">
+    <div class="form-group">
+        <label for="Matricola">Matricola</label>
+        <input type="text" class="form-control" asp-for=Matricola />
+    </div>
+    <div class="form-group">
+        <label for="Nome">Nome</label>
+        <textarea type="text" class="form-control" asp-for=Nome></textarea>
+    </div>
+    <div class="form-group">
+        <label for="Cognome">Cognome</label>
+        <input type="text" class="form-control" asp-for=Cognome />
+    </div>
+    <div class="form-group">
+        <label for="DataNascita">DataNascita</label>
+        <input type="date" min="0" class="form-control" asp-for=DataNascita />
+    </div>
+    <div class="form-group">
+        <label for="Ruolo">Ruolo</label>
+        <select class="form-select" aria-label="Default select example" asp-for=Ruolo>
+            <option selected>Open this select menu</option>
+            <option value="1">impiegato1</option>
+            <option value="2">metalmeccanico</option>
+            <option value="3">professionale</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="Reparto">Reparto</label>
+        <select class="form-select" aria-label="Default select example" asp-for=Reparto>
+            @foreach (var item in @ViewBag.listaReparto)
+            {
+                <option value="@item.RepartoId">@item.NomeReparto</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="IndirizzoRes">IndirizzoRes</label>
+        <input type="text" class="form-control" asp-for=IndirizzoRes />
+    </div>
+    <div class="form-group">
+        <label for="provincia">Seleziona una provincia:</label>
+        <select id="provincia">
+            @foreach (var item in @ViewBag.listaProvincia)
+            {
+                <option value=@item.Nome>@item.Nome</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="citta">Città:</label>
+        <select id="citta">
+            @foreach (var item in @ViewBag.listaCitta)
+            {
+                <option value=@item.NomeCitta>@item.NomeCitta</option>
+            }
+        </select>
+    </div>
+  
+
+    <button class="btn btn-primary btn-block" type="submit">Salva</button>
+</form>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#provincia').change(function () {
+            var provincia = $(this).val(); // Ottieni il valore selezionato della provincia
+            $.ajax({
+                url: 'http://localhost:5115/Impiegato/GetCitiesByProvince',
+                data: { provincia: provincia }, // Passa il nome della provincia come parametro
+                dataType: "jsonp",
+                contentType: "application/json",
+                success: function () {
+                    // Aggiorna l'elenco delle città con la risposta dal server
+                    //$('#citta').html(response);
+                },
+                error: function (xhr, status, error) {
+                    // Gestisci gli errori qui
+                    console.log(status);
+                    console.log(error);
+                }
+            });
+        });
+    });
+</script>
